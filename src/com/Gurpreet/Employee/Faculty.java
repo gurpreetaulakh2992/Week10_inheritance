@@ -5,7 +5,7 @@ import com.Gurpreet.Vehicle.Vehicle;
 
 public class Faculty extends Employee{
     String department;
-    
+
 
     public Faculty(int id, String firstName, String lastName, Gender gender, Vehicle vehicle, double totalSalary, String department) {
         super(id, firstName, lastName, gender, vehicle, totalSalary);
